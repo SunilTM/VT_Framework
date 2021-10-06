@@ -22,9 +22,8 @@ public class listenerImplimentation implements ITestListener {
 
 	public void onTestSuccess(ITestResult result) {
 		test.log(Status.PASS, result.getMethod().getMethodName() + "is Passed");
-
 	}
-
+	
 	public void onTestFailure(ITestResult result) {
 
 		test.log(Status.FAIL, result.getMethod().getMethodName() + "is Failed");
@@ -39,17 +38,14 @@ public class listenerImplimentation implements ITestListener {
 			
 			e.printStackTrace();
 		}
-
 	}
 	
 	public void onTestSkipped(ITestResult result) {
 		test.log(Status.SKIP, result.getMethod().getMethodName() + "Skipped");
-
 	}
 
 	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 		// TODO Auto-generated method stub
-
 	}
 
 	public void onStart(ITestContext context) {
@@ -70,5 +66,4 @@ public class listenerImplimentation implements ITestListener {
 
 		reports.flush();
 	}
-
 }

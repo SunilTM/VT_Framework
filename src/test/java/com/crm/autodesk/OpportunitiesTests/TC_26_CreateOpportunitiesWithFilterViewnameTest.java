@@ -2,6 +2,7 @@ package com.crm.autodesk.OpportunitiesTests;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.autodesk.ElementRepository.CreateOpportunitiesPage;
@@ -11,6 +12,9 @@ import com.crm.autodesk.ElementRepository.OpportunityInfoPage;
 import com.crm.autodesk.ElementRepository.OpportunityPage;
 import com.crm.autodesk.genericUtility.BaseClass;
 
+
+
+@Listeners(com.crm.autodesk.genericUtility.listenerImplimentation.class)
 public class TC_26_CreateOpportunitiesWithFilterViewnameTest extends BaseClass {
 
 	@Test(groups = "SmokeSuite",retryAnalyzer = com.crm.autodesk.genericUtility.RetryAnalyzier.class)
@@ -66,6 +70,6 @@ public class TC_26_CreateOpportunitiesWithFilterViewnameTest extends BaseClass {
 		// Verification
 		Assert.assertTrue(actoppor.contains(opportunityName));
 		System.out.println(opportunityName + " :- View Name Created Successfully And Test Script Pass");
-		Assert.assertEquals(false, true);//failed becaouse to check Listeners(ScreenShots)
+		//Assert.assertEquals(false, true);//failed becaouse to check Listeners(ScreenShots)
 	}
 }

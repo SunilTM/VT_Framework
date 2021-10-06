@@ -13,6 +13,7 @@ import com.crm.autodesk.genericUtility.BaseClass;
 
 import junit.framework.Assert;
 
+@Listeners(com.crm.autodesk.genericUtility.listenerImplimentation.class)
 public class TC_27_CreateOpportunitiesWithFilterCreatedTest extends BaseClass {
 
 	@Test(groups = "SmokeSuite",retryAnalyzer = com.crm.autodesk.genericUtility.RetryAnalyzier.class)

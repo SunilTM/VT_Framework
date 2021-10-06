@@ -15,7 +15,6 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
 
 import com.crm.autodesk.ElementRepository.HomePage;
 import com.crm.autodesk.ElementRepository.LoginPage;
@@ -42,7 +41,7 @@ public class BaseClass {
 		System.out.println("====Connect to DataBase====");
 	}
 
-	//@Parameters("Browser")
+	// @Parameters("Browser")
 	@BeforeClass(groups = { "SmokeSuite", "RegressionSuite" })
 	public void launchBrowser() throws Throwable {
 		WebDriverManager.chromedriver().setup();
@@ -60,7 +59,7 @@ public class BaseClass {
 		wLib.waitForPageLoad(driver);
 		wLib.maximizebrowser(driver);
 		driver.get(URL);
-		staticdriver=driver;
+		staticdriver = driver;
 		System.out.println("====Launch Browser====");
 	}
 
@@ -92,13 +91,13 @@ public class BaseClass {
 		// dbLib.closeDb();
 		System.out.println("====CloseDB====");
 	}
-	public String getscreenshot(String name) throws IOException
-	{
-		File srcfile =((TakesScreenshot) staticdriver).getScreenshotAs(OutputType.FILE);
-		String destfile =System.getProperty("user.dir")+"/Screenshot/" +name+".png";
-		File finalDest =new File(destfile);
+
+	public String getscreenshot(String name) throws IOException {
+		File srcfile = ((TakesScreenshot) staticdriver).getScreenshotAs(OutputType.FILE);
+		String destfile = System.getProperty("user.dir") + "/Screenshot/" + name + ".png";
+		File finalDest = new File(destfile);
 		FileUtils.copyFile(srcfile, finalDest);
-		
+
 		return destfile;
 	}
 }

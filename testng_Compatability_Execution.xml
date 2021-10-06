@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="tests" name="Suite">
-  <test thread-count="2" parallel="tests" name="Test_Runner_Chrome">
+<suite thread-count="5" parallel="tests" name="Suite">
+  <test thread-count="5" parallel="tests" name="Test_Runner_Chrome">
   <parameter name="Browser" value="chrome"></parameter>
     <classes>
       <class name="com.crm.autodesk.OpportunitiesTests.TC_28_CreateFilterWithoutMandatoryFieldsWithSaveTest"/>
@@ -11,7 +11,7 @@
       <class name="com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest"/>
     </classes>
   </test> <!-- Test -->
-  <test thread-count="2" parallel="tests" name="Test_Runner_Firefox">
+  <test thread-count="5" parallel="tests" name="Test_Runner_Firefox">
   <parameter name="Browser" value="firefox"></parameter>
    
     <classes>

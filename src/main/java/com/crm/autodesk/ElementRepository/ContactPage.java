@@ -34,7 +34,7 @@ public class ContactPage {
 	public WebElement getFirstNameEdt() {
 		return firstNameEdt;
 	}
-
+	
 	public WebElement getNameEnter() {
 		return nameEnter;
 	}
