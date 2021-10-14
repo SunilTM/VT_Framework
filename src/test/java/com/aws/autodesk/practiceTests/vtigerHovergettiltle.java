@@ -24,7 +24,6 @@ public class vtigerHovergettiltle {
 		driver.findElement(By.linkText("Opportunities")).click();
 		
 		WebElement title = driver.findElement(By.xpath("//img[@title='Create Opportunity...']"));
-		System.out.println(title.getAttribute("title"));
-		
+		System.out.println(title.getAttribute("title"));	
 	}
 }

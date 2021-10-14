@@ -1,4 +1,4 @@
-package com.aws.autodesk.practiceTests;
+package com.aws.autodesk.practice_JDBC_Programmes;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
