@@ -34,10 +34,10 @@ public class Practice1 extends BaseClass {
 		createOppoPage.createopprunity(opportunityName);
 		createOppoPage.RelatedToContact(modType);
 		createOppoPage.SelectLookUp();
-		//createOppoPage.SalesStage();
+		createOppoPage.SalesStage();
 		createOppoPage.SalesStageIdDecision();
 
-		// Navigate To contactPage
+		// Navigate To contactPages
 		wLib.switchToWindows(driver, "Contacts");
 		driver.findElement(By.id("1")).click();
 		wLib.switchToWindows(driver, "EditView");
