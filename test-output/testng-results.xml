@@ -1,147 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-14T14:00:13 IST" name="Suite" finished-at="2021-10-14T14:02:30 IST" duration-ms="137507">
+  <suite started-at="2021-10-26T20:38:21 IST" name="Default suite" finished-at="2021-10-26T20:38:24 IST" duration-ms="2469">
     <groups>
-      <group name="RegressionSuite">
-        <method signature="TC_29_CreateFilterWithMandatoryFieldsWithCancelTest.createFilterWithMandatoryFieldsWithCancelTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_29_CreateFilterWithMandatoryFieldsWithCancelTest@15043a2f]" name="createFilterWithMandatoryFieldsWithCancelTest" class="com.crm.autodesk.OpportunitiesTests.TC_29_CreateFilterWithMandatoryFieldsWithCancelTest"/>
-        <method signature="TC_28_CreateFilterWithoutMandatoryFieldsWithSaveTest.createFilterWithMandatoryFieldsWithoutSaveTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_28_CreateFilterWithoutMandatoryFieldsWithSaveTest@8519cb4]" name="createFilterWithMandatoryFieldsWithoutSaveTest" class="com.crm.autodesk.OpportunitiesTests.TC_28_CreateFilterWithoutMandatoryFieldsWithSaveTest"/>
-        <method signature="TC_30_CreateFilterafterclickoneEditFilterTest.createFilterafterclickoneEditFilterTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_30_CreateFilterafterclickoneEditFilterTest@5afa3c9]" name="createFilterafterclickoneEditFilterTest" class="com.crm.autodesk.OpportunitiesTests.TC_30_CreateFilterafterclickoneEditFilterTest"/>
-      </group> <!-- RegressionSuite -->
-      <group name="SmokeSuite">
-        <method signature="TC_26_CreateOpportunitiesWithFilterViewnameTest.creatOpportunitiesWithFilterViewnameTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@2e385cce]" name="creatOpportunitiesWithFilterViewnameTest" class="com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest"/>
-        <method signature="TC_27_CreateOpportunitiesWithFilterCreatedTest.createOpportunitiesWithFilterCreatedTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_27_CreateOpportunitiesWithFilterCreatedTest@742ff096]" name="createOpportunitiesWithFilterCreatedTest" class="com.crm.autodesk.OpportunitiesTests.TC_27_CreateOpportunitiesWithFilterCreatedTest"/>
-        <method signature="TC_29_CreateFilterWithMandatoryFieldsWithCancelTest.createFilterWithMandatoryFieldsWithCancelTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_29_CreateFilterWithMandatoryFieldsWithCancelTest@15043a2f]" name="createFilterWithMandatoryFieldsWithCancelTest" class="com.crm.autodesk.OpportunitiesTests.TC_29_CreateFilterWithMandatoryFieldsWithCancelTest"/>
-      </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2021-10-14T14:00:13 IST" name="Test_03" finished-at="2021-10-14T14:02:25 IST" duration-ms="131978">
-      <class name="com.crm.autodesk.OpportunitiesTests.TC_29_CreateFilterWithMandatoryFieldsWithCancelTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_29_CreateFilterWithMandatoryFieldsWithCancelTest@15043a2f]" started-at="2021-10-14T14:00:13 IST" name="launchBrowser" finished-at="2021-10-14T14:00:32 IST" duration-ms="19188" status="PASS">
+    <test started-at="2021-10-26T20:38:21 IST" name="Default test" finished-at="2021-10-26T20:38:24 IST" duration-ms="2469">
+      <class name="com.crudoperationwithoutBDD.CreateAResource">
+        <test-method signature="create()[pri:0, instance:com.crudoperationwithoutBDD.CreateAResource@4b0d79fc]" started-at="2021-10-26T20:38:21 IST" name="create" finished-at="2021-10-26T20:38:24 IST" duration-ms="2419" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_29_CreateFilterWithMandatoryFieldsWithCancelTest@15043a2f]" started-at="2021-10-14T14:00:32 IST" name="loginToApp" finished-at="2021-10-14T14:00:55 IST" duration-ms="22808" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="createFilterWithMandatoryFieldsWithCancelTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_29_CreateFilterWithMandatoryFieldsWithCancelTest@15043a2f]" started-at="2021-10-14T14:00:55 IST" name="createFilterWithMandatoryFieldsWithCancelTest" finished-at="2021-10-14T14:02:09 IST" duration-ms="73849" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createFilterWithMandatoryFieldsWithCancelTest -->
-        <test-method is-config="true" signature="logoutofApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_29_CreateFilterWithMandatoryFieldsWithCancelTest@15043a2f]" started-at="2021-10-14T14:02:09 IST" name="logoutofApp" finished-at="2021-10-14T14:02:14 IST" duration-ms="4734" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutofApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_29_CreateFilterWithMandatoryFieldsWithCancelTest@15043a2f]" started-at="2021-10-14T14:02:14 IST" name="closeBrowser" finished-at="2021-10-14T14:02:25 IST" duration-ms="10921" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.autodesk.OpportunitiesTests.TC_29_CreateFilterWithMandatoryFieldsWithCancelTest -->
-    </test> <!-- Test_03 -->
-    <test started-at="2021-10-14T14:00:13 IST" name="Test_02" finished-at="2021-10-14T14:02:27 IST" duration-ms="134864">
-      <class name="com.crm.autodesk.OpportunitiesTests.TC_27_CreateOpportunitiesWithFilterCreatedTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_27_CreateOpportunitiesWithFilterCreatedTest@742ff096]" started-at="2021-10-14T14:00:13 IST" name="launchBrowser" finished-at="2021-10-14T14:00:32 IST" duration-ms="18581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_27_CreateOpportunitiesWithFilterCreatedTest@742ff096]" started-at="2021-10-14T14:00:32 IST" name="loginToApp" finished-at="2021-10-14T14:00:52 IST" duration-ms="20739" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="createOpportunitiesWithFilterCreatedTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_27_CreateOpportunitiesWithFilterCreatedTest@742ff096]" started-at="2021-10-14T14:00:52 IST" name="createOpportunitiesWithFilterCreatedTest" finished-at="2021-10-14T14:02:23 IST" duration-ms="90691" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOpportunitiesWithFilterCreatedTest -->
-        <test-method is-config="true" signature="logoutofApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_27_CreateOpportunitiesWithFilterCreatedTest@742ff096]" started-at="2021-10-14T14:02:23 IST" name="logoutofApp" finished-at="2021-10-14T14:02:27 IST" duration-ms="3434" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutofApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_27_CreateOpportunitiesWithFilterCreatedTest@742ff096]" started-at="2021-10-14T14:02:27 IST" name="closeBrowser" finished-at="2021-10-14T14:02:27 IST" duration-ms="938" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.autodesk.OpportunitiesTests.TC_27_CreateOpportunitiesWithFilterCreatedTest -->
-    </test> <!-- Test_02 -->
-    <test started-at="2021-10-14T14:00:13 IST" name="Test_04" finished-at="2021-10-14T14:02:28 IST" duration-ms="135515">
-      <class name="com.crm.autodesk.OpportunitiesTests.TC_28_CreateFilterWithoutMandatoryFieldsWithSaveTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_28_CreateFilterWithoutMandatoryFieldsWithSaveTest@8519cb4]" started-at="2021-10-14T14:00:13 IST" name="launchBrowser" finished-at="2021-10-14T14:00:35 IST" duration-ms="21553" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_28_CreateFilterWithoutMandatoryFieldsWithSaveTest@8519cb4]" started-at="2021-10-14T14:00:35 IST" name="loginToApp" finished-at="2021-10-14T14:00:53 IST" duration-ms="18597" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="createFilterWithMandatoryFieldsWithoutSaveTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_28_CreateFilterWithoutMandatoryFieldsWithSaveTest@8519cb4]" started-at="2021-10-14T14:00:53 IST" name="createFilterWithMandatoryFieldsWithoutSaveTest" finished-at="2021-10-14T14:02:17 IST" duration-ms="83544" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createFilterWithMandatoryFieldsWithoutSaveTest -->
-        <test-method is-config="true" signature="logoutofApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_28_CreateFilterWithoutMandatoryFieldsWithSaveTest@8519cb4]" started-at="2021-10-14T14:02:17 IST" name="logoutofApp" finished-at="2021-10-14T14:02:21 IST" duration-ms="3786" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutofApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_28_CreateFilterWithoutMandatoryFieldsWithSaveTest@8519cb4]" started-at="2021-10-14T14:02:21 IST" name="closeBrowser" finished-at="2021-10-14T14:02:28 IST" duration-ms="7581" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.autodesk.OpportunitiesTests.TC_28_CreateFilterWithoutMandatoryFieldsWithSaveTest -->
-    </test> <!-- Test_04 -->
-    <test started-at="2021-10-14T14:00:13 IST" name="Test_01" finished-at="2021-10-14T14:02:28 IST" duration-ms="135784">
-      <class name="com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@2e385cce]" started-at="2021-10-14T14:00:13 IST" name="launchBrowser" finished-at="2021-10-14T14:00:32 IST" duration-ms="19241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@2e385cce]" started-at="2021-10-14T14:00:32 IST" name="loginToApp" finished-at="2021-10-14T14:00:54 IST" duration-ms="21311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="creatOpportunitiesWithFilterViewnameTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@2e385cce]" started-at="2021-10-14T14:00:54 IST" name="creatOpportunitiesWithFilterViewnameTest" finished-at="2021-10-14T14:02:24 IST" duration-ms="90442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- creatOpportunitiesWithFilterViewnameTest -->
-        <test-method is-config="true" signature="logoutofApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@2e385cce]" started-at="2021-10-14T14:02:24 IST" name="logoutofApp" finished-at="2021-10-14T14:02:28 IST" duration-ms="3851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutofApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest@2e385cce]" started-at="2021-10-14T14:02:28 IST" name="closeBrowser" finished-at="2021-10-14T14:02:28 IST" duration-ms="482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest -->
-    </test> <!-- Test_01 -->
-    <test started-at="2021-10-14T14:00:13 IST" name="Test_05" finished-at="2021-10-14T14:02:30 IST" duration-ms="137507">
-      <class name="com.crm.autodesk.OpportunitiesTests.TC_30_CreateFilterafterclickoneEditFilterTest">
-        <test-method is-config="true" signature="connectDB()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_30_CreateFilterafterclickoneEditFilterTest@5afa3c9]" started-at="2021-10-14T14:00:13 IST" name="connectDB" finished-at="2021-10-14T14:00:13 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectDB -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_30_CreateFilterafterclickoneEditFilterTest@5afa3c9]" started-at="2021-10-14T14:00:13 IST" name="launchBrowser" finished-at="2021-10-14T14:00:35 IST" duration-ms="21602" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="loginToApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_30_CreateFilterafterclickoneEditFilterTest@5afa3c9]" started-at="2021-10-14T14:00:35 IST" name="loginToApp" finished-at="2021-10-14T14:00:55 IST" duration-ms="19899" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method signature="createFilterafterclickoneEditFilterTest()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_30_CreateFilterafterclickoneEditFilterTest@5afa3c9]" started-at="2021-10-14T14:00:55 IST" name="createFilterafterclickoneEditFilterTest" finished-at="2021-10-14T14:02:27 IST" duration-ms="92308" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createFilterafterclickoneEditFilterTest -->
-        <test-method is-config="true" signature="logoutofApp()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_30_CreateFilterafterclickoneEditFilterTest@5afa3c9]" started-at="2021-10-14T14:02:27 IST" name="logoutofApp" finished-at="2021-10-14T14:02:30 IST" duration-ms="3024" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutofApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_30_CreateFilterafterclickoneEditFilterTest@5afa3c9]" started-at="2021-10-14T14:02:30 IST" name="closeBrowser" finished-at="2021-10-14T14:02:30 IST" duration-ms="219" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.crm.autodesk.OpportunitiesTests.TC_30_CreateFilterafterclickoneEditFilterTest@5afa3c9]" started-at="2021-10-14T14:02:30 IST" name="closeDB" finished-at="2021-10-14T14:02:30 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDB -->
-      </class> <!-- com.crm.autodesk.OpportunitiesTests.TC_30_CreateFilterafterclickoneEditFilterTest -->
-    </test> <!-- Test_05 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- create -->
+      </class> <!-- com.crudoperationwithoutBDD.CreateAResource -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest">
+      <class name="com.crudoperationwithoutBDD.CreateAResource">
         <methods>
-          <include name="loginToApp"/>
-          <include name="closeDB"/>
-          <include name="creatOpportunitiesWithFilterViewnameTest"/>
-          <include name="connectDB"/>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
-          <include name="logoutofApp"/>
+          <include name="create"/>
         </methods>
-      </class> <!-- com.crm.autodesk.OpportunitiesTests.TC_26_CreateOpportunitiesWithFilterViewnameTest -->
+      </class> <!-- com.crudoperationwithoutBDD.CreateAResource -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
